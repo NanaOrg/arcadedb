@@ -1,0 +1,717 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Meterian",
+          "rules": [
+            {
+              "id": "METERIAN-JAVA-ORG.APACHE.LUCENE:LUCENE-ANALYSIS-COMMON-4FFC7407174F",
+              "shortDescription": {
+                "text": "[stability] org.apache.lucene:lucene-analysis-common@9.12.1 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] org.apache.lucene:lucene-analysis-common@9.12.1 is outdated"
+              },
+              "help": {
+                "text": "org.apache.lucene:lucene-analysis-common@9.12.1 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n10.1.0 (major upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "org.apache.lucene:lucene-analysis-common@9.12.1 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 10.1.0 (major upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-PYTHON-PSYCOPG-03DFFB5E6859",
+              "shortDescription": {
+                "text": "[stability] psycopg@3.1.12 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] psycopg@3.1.12 is outdated"
+              },
+              "help": {
+                "text": "psycopg@3.1.12 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n3.1.20 (patch upgrade)\n3.2.4 (minor upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "psycopg@3.1.12 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 3.1.20 (patch upgrade)\n- 3.2.4 (minor upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-JAVA-ORG.APACHE.LUCENE:LUCENE-QUERYPARSER-38228627990D",
+              "shortDescription": {
+                "text": "[stability] org.apache.lucene:lucene-queryparser@9.12.1 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] org.apache.lucene:lucene-queryparser@9.12.1 is outdated"
+              },
+              "help": {
+                "text": "org.apache.lucene:lucene-queryparser@9.12.1 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n10.1.0 (major upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "org.apache.lucene:lucene-queryparser@9.12.1 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 10.1.0 (major upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-PYTHON-PSYCOPG2-BINARY-6CCB503AFF4F",
+              "shortDescription": {
+                "text": "[stability] psycopg2-binary@2.9.9 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] psycopg2-binary@2.9.9 is outdated"
+              },
+              "help": {
+                "text": "psycopg2-binary@2.9.9 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n2.9.10 (patch upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "psycopg2-binary@2.9.9 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 2.9.10 (patch upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-JAVA-IO.UNDERTOW:UNDERTOW-CORE-27E5089AEC0B",
+              "shortDescription": {
+                "text": "[security] io.undertow:undertow-core@2.3.18.Final is vulnerable (CVE-2024-4109)"
+              },
+              "fullDescription": {
+                "text": "[security] io.undertow:undertow-core@2.3.18.Final is vulnerable (CVE-2024-4109)"
+              },
+              "help": {
+                "text": "# Withdrawn Advisory\nThis advisory has been withdrawn because it was determined to not be a valid vulnerability. This link is maintained to preserve external references. For more information, see https://nvd.nist.gov/vuln/detail/CVE-2024-4109.\n\n# Original Description\nA flaw was found in Undertow. An HTTP request header value from a previous stream may be incorrectly reused for a request associated with a subsequent stream on the same HTTP/2 connection. This issue can potentially lead to information leakage between requests.\n\n[CVSS: 5] [EPSS: 0.04%]\n\nSafe versions\nWe were not able to provide a safe version for this library.\nYou should consider replacing this component as it could be an issue for the safety of your application.\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\nMore Information\nhttps://github.com/advisories/GHSA-22c5-cpvr-cfvq\nhttps://github.com/undertow-io/undertow\nhttps://github.com/undertow-io/undertow/blob/6ae61c6af88d2a8341922ccd0de98926e8349543/core/src/main/java/io/undertow/protocols/http2/HpackDecoder.java#L250-L259\nhttps://nvd.nist.gov/vuln/detail/CVE-2024-4109\n\n\n",
+                "markdown": "# Withdrawn Advisory\nThis advisory has been withdrawn because it was determined to not be a valid vulnerability. This link is maintained to preserve external references. For more information, see https://nvd.nist.gov/vuln/detail/CVE-2024-4109.\n\n# Original Description\nA flaw was found in Undertow. An HTTP request header value from a previous stream may be incorrectly reused for a request associated with a subsequent stream on the same HTTP/2 connection. This issue can potentially lead to information leakage between requests.\n\n**[CVSS: 5]** **[EPSS: 0.04%]**\n\n## Safe versions\nWe were not able to provide a safe version for this library.\nYou should consider replacing this component as it could be an issue for the safety of your application.\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n## More Information\n- [https://github.com/advisories/GHSA-22c5-cpvr-cfvq](https://github.com/advisories/GHSA-22c5-cpvr-cfvq)\n- [https://github.com/undertow-io/undertow](https://github.com/undertow-io/undertow)\n- [https://github.com/undertow-io/undertow/blob/6ae61c6af88d2a8341922ccd0de98926e8349543/core/src/main/java/io/undertow/protocols/http2/HpackDecoder.java#L250-L259](https://github.com/undertow-io/undertow/blob/6ae61c6af88d2a8341922ccd0de98926e8349543/core/src/main/java/io/undertow/protocols/http2/HpackDecoder.java#L250-L259)\n- [https://nvd.nist.gov/vuln/detail/CVE-2024-4109](https://nvd.nist.gov/vuln/detail/CVE-2024-4109)\n\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "security",
+                  "vulnerability"
+                ],
+                "precision": "very-high",
+                "security-severity": "5"
+              }
+            },
+            {
+              "id": "METERIAN-PYTHON-PG8000-E7D80F9D15E0",
+              "shortDescription": {
+                "text": "[stability] pg8000@1.30.3 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] pg8000@1.30.3 is outdated"
+              },
+              "help": {
+                "text": "pg8000@1.30.3 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n1.30.5 (patch upgrade)\n1.31.2 (minor upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "pg8000@1.30.3 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 1.30.5 (patch upgrade)\n- 1.31.2 (minor upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-PYTHON-PSYCOPG-BINARY-881738237E12",
+              "shortDescription": {
+                "text": "[stability] psycopg-binary@3.1.12 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] psycopg-binary@3.1.12 is outdated"
+              },
+              "help": {
+                "text": "psycopg-binary@3.1.12 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n3.1.20 (patch upgrade)\n3.2.4 (minor upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "psycopg-binary@3.1.12 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 3.1.20 (patch upgrade)\n- 3.2.4 (minor upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-JAVA-ORG.JUNIT.JUPITER:JUNIT-JUPITER-8E91C2048717",
+              "shortDescription": {
+                "text": "[stability] org.junit.jupiter:junit-jupiter@5.11.4 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] org.junit.jupiter:junit-jupiter@5.11.4 is outdated"
+              },
+              "help": {
+                "text": "org.junit.jupiter:junit-jupiter@5.11.4 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n5.12.0-M1 (minor upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "org.junit.jupiter:junit-jupiter@5.11.4 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 5.12.0-M1 (minor upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-PYTHON-NEST-ASYNCIO-7BCA8D978777",
+              "shortDescription": {
+                "text": "[stability] nest-asyncio@1.5.8 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] nest-asyncio@1.5.8 is outdated"
+              },
+              "help": {
+                "text": "nest-asyncio@1.5.8 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n1.5.9 (patch upgrade)\n1.6.0 (minor upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "nest-asyncio@1.5.8 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 1.5.9 (patch upgrade)\n- 1.6.0 (minor upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-NODEJS-PG-POOL-6A5BD2409C1E",
+              "shortDescription": {
+                "text": "[security] pg-pool@3.7.1 is vulnerable (MET-6a5bd2409c1e)"
+              },
+              "fullDescription": {
+                "text": "[security] pg-pool@3.7.1 is vulnerable (MET-6a5bd2409c1e)"
+              },
+              "help": {
+                "text": "Library \u0027pg-pool\u0027 has not been updated since 62 months ago. We suggest you to start looking for a replacement for this library or get in touch with the project maintainers.\n\n[CVSS: 0.25]\n\nSafe versions\nWe were not able to provide a safe version for this library.\nYou should consider replacing this component as it could be an issue for the safety of your application.\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\nMore Information\n\n\n",
+                "markdown": "Library \u0027pg-pool\u0027 has not been updated since 62 months ago. We suggest you to start looking for a replacement for this library or get in touch with the project maintainers.\n\n**[CVSS: 0.25]**\n\n## Safe versions\nWe were not able to provide a safe version for this library.\nYou should consider replacing this component as it could be an issue for the safety of your application.\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n## More Information\n\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "security",
+                  "vulnerability",
+                  "CWE-1104"
+                ],
+                "precision": "very-high",
+                "security-severity": "0"
+              }
+            },
+            {
+              "id": "METERIAN-JAVA-IO.MICROMETER:MICROMETER-CORE-B8D75784CDDC",
+              "shortDescription": {
+                "text": "[stability] io.micrometer:micrometer-core@1.14.4 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] io.micrometer:micrometer-core@1.14.4 is outdated"
+              },
+              "help": {
+                "text": "io.micrometer:micrometer-core@1.14.4 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n1.15.0-M2 (minor upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "io.micrometer:micrometer-core@1.14.4 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 1.15.0-M2 (minor upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-JAVA-IO.MICROMETER:MICROMETER-REGISTRY-PROMETHEUS-34EAE5256DEA",
+              "shortDescription": {
+                "text": "[stability] io.micrometer:micrometer-registry-prometheus@1.14.4 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] io.micrometer:micrometer-registry-prometheus@1.14.4 is outdated"
+              },
+              "help": {
+                "text": "io.micrometer:micrometer-registry-prometheus@1.14.4 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n1.15.0-M2 (minor upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "io.micrometer:micrometer-registry-prometheus@1.14.4 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 1.15.0-M2 (minor upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-JAVA-ORG.JUNIT.VINTAGE:JUNIT-VINTAGE-ENGINE-B821EC97E13C",
+              "shortDescription": {
+                "text": "[stability] org.junit.vintage:junit-vintage-engine@5.11.4 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] org.junit.vintage:junit-vintage-engine@5.11.4 is outdated"
+              },
+              "help": {
+                "text": "org.junit.vintage:junit-vintage-engine@5.11.4 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n5.12.0-M1 (minor upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "org.junit.vintage:junit-vintage-engine@5.11.4 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 5.12.0-M1 (minor upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-PYTHON-SQLALCHEMY-2E8127A9FA30",
+              "shortDescription": {
+                "text": "[stability] SQLAlchemy@2.0.23 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] SQLAlchemy@2.0.23 is outdated"
+              },
+              "help": {
+                "text": "SQLAlchemy@2.0.23 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n2.0.38 (patch upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "SQLAlchemy@2.0.23 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 2.0.38 (patch upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-JAVA-REDIS.CLIENTS:JEDIS-D931EB4FABF8",
+              "shortDescription": {
+                "text": "[stability] redis.clients:jedis@3.10.0 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] redis.clients:jedis@3.10.0 is outdated"
+              },
+              "help": {
+                "text": "redis.clients:jedis@3.10.0 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n5.2.0 (major upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "redis.clients:jedis@3.10.0 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 5.2.0 (major upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-JAVA-COM.GITHUB.JELMERK:HNSWLIB-CORE-36E3710FEFFA",
+              "shortDescription": {
+                "text": "[stability] com.github.jelmerk:hnswlib-core@1.1.0 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] com.github.jelmerk:hnswlib-core@1.1.0 is outdated"
+              },
+              "help": {
+                "text": "com.github.jelmerk:hnswlib-core@1.1.0 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n1.1.3 (patch upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "com.github.jelmerk:hnswlib-core@1.1.0 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 1.1.3 (patch upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            },
+            {
+              "id": "METERIAN-PYTHON-ASYNCPG-69B79369B578",
+              "shortDescription": {
+                "text": "[stability] asyncpg@0.29.0 is outdated"
+              },
+              "fullDescription": {
+                "text": "[stability] asyncpg@0.29.0 is outdated"
+              },
+              "help": {
+                "text": "asyncpg@0.29.0 is out of date. Review the safest upgrade paths we have detected below.\n\nSafe versions\n0.30.0 (minor upgrade)\n\nFull Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n",
+                "markdown": "asyncpg@0.29.0 is out of date. Review the safest upgrade paths we have detected below.\n\n## Safe versions\n- 0.30.0 (minor upgrade)\n\n## Full Meterian Report\nhttps://qa.meterian.com/projects/?pid\u003d05c2e989-e47a-4752-97da-f77c7f438693\u0026branch\u003d1989-it-tests\n\n"
+              },
+              "properties": {
+                "tags": [
+                  "stability"
+                ],
+                "precision": "very-high",
+                "security-severity": "1"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "METERIAN-JAVA-IO.UNDERTOW:UNDERTOW-CORE-27E5089AEC0B",
+          "message": {
+            "text": "This file introduces io.undertow:undertow-core@2.3.18.Final which is vulnerable (CVE-2024-4109)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-NODEJS-PG-POOL-6A5BD2409C1E",
+          "message": {
+            "text": "pg-pool@3.7.1 is vulnerable (MET-6a5bd2409c1e)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "e2e-js/package-lock.json"
+                },
+                "region": {
+                  "startLine": 4091,
+                  "startColumn": 1,
+                  "endLine": 4099,
+                  "endColumn": 7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-JAVA-COM.GITHUB.JELMERK:HNSWLIB-CORE-36E3710FEFFA",
+          "message": {
+            "text": "This file introduces com.github.jelmerk:hnswlib-core@1.1.0 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-JAVA-IO.MICROMETER:MICROMETER-CORE-B8D75784CDDC",
+          "message": {
+            "text": "This file introduces io.micrometer:micrometer-core@1.14.4 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-JAVA-IO.MICROMETER:MICROMETER-REGISTRY-PROMETHEUS-34EAE5256DEA",
+          "message": {
+            "text": "This file introduces io.micrometer:micrometer-registry-prometheus@1.14.4 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-JAVA-ORG.APACHE.LUCENE:LUCENE-ANALYSIS-COMMON-4FFC7407174F",
+          "message": {
+            "text": "This file introduces org.apache.lucene:lucene-analysis-common@9.12.1 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-JAVA-ORG.APACHE.LUCENE:LUCENE-QUERYPARSER-38228627990D",
+          "message": {
+            "text": "This file introduces org.apache.lucene:lucene-queryparser@9.12.1 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-JAVA-ORG.JUNIT.JUPITER:JUNIT-JUPITER-8E91C2048717",
+          "message": {
+            "text": "This file introduces org.junit.jupiter:junit-jupiter@5.11.4 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-JAVA-ORG.JUNIT.VINTAGE:JUNIT-VINTAGE-ENGINE-B821EC97E13C",
+          "message": {
+            "text": "This file introduces org.junit.vintage:junit-vintage-engine@5.11.4 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-JAVA-REDIS.CLIENTS:JEDIS-D931EB4FABF8",
+          "message": {
+            "text": "This file introduces redis.clients:jedis@3.10.0 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "pom.xml"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-PYTHON-SQLALCHEMY-2E8127A9FA30",
+          "message": {
+            "text": "This file introduces SQLAlchemy@2.0.23 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "postgresw/src/test/resources/python/requirements.txt"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-PYTHON-ASYNCPG-69B79369B578",
+          "message": {
+            "text": "This file introduces asyncpg@0.29.0 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "postgresw/src/test/resources/python/requirements.txt"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-PYTHON-NEST-ASYNCIO-7BCA8D978777",
+          "message": {
+            "text": "This file introduces nest-asyncio@1.5.8 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "postgresw/src/test/resources/python/requirements.txt"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-PYTHON-PG8000-E7D80F9D15E0",
+          "message": {
+            "text": "This file introduces pg8000@1.30.3 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "postgresw/src/test/resources/python/requirements.txt"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-PYTHON-PSYCOPG-03DFFB5E6859",
+          "message": {
+            "text": "This file introduces psycopg@3.1.12 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "postgresw/src/test/resources/python/requirements.txt"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-PYTHON-PSYCOPG-BINARY-881738237E12",
+          "message": {
+            "text": "This file introduces psycopg-binary@3.1.12 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "postgresw/src/test/resources/python/requirements.txt"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "METERIAN-PYTHON-PSYCOPG2-BINARY-6CCB503AFF4F",
+          "message": {
+            "text": "This file introduces psycopg2-binary@2.9.9 which is outdated"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "postgresw/src/test/resources/python/requirements.txt"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 16
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
