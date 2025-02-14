@@ -15,7 +15,7 @@
 #
 
 
-FROM eclipse-temurin:17
+FROM eclipse-temurin:21
 
 LABEL maintainer="Arcade Data LTD (info@arcadedb.com)"
 
